@@ -21,10 +21,10 @@ app_ui = ui.page_fluid(
     ui.layout_sidebar(
         ui.panel_sidebar(
             ui.input_text("txt", "Input some text"),
-            ui.input_action_button("btn", "Click me"),
+            ui.input_action_button("btn", "Click me", class_="btn-warning"),
             ui.input_slider("n", "N", 0, 100, 20),
             ui.markdown(
-                "This example uses the Bootswatch [Morph](https://bootswatch.com/morph/) theme."
+                "This example uses the Bootswatch [Litera](https://bootswatch.com/litera/) theme."
             ),
         ),
         ui.panel_main(
